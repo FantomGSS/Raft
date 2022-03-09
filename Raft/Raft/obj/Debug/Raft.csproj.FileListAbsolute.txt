@@ -1,0 +1,7 @@
+C:\Users\Phantom\Desktop\C#\EXAM\Raft\Raft\bin\Debug\Raft.exe.config
+C:\Users\Phantom\Desktop\C#\EXAM\Raft\Raft\bin\Debug\Raft.exe
+C:\Users\Phantom\Desktop\C#\EXAM\Raft\Raft\bin\Debug\Raft.pdb
+C:\Users\Phantom\Desktop\C#\EXAM\Raft\Raft\obj\Debug\Raft.csproj.AssemblyReference.cache
+C:\Users\Phantom\Desktop\C#\EXAM\Raft\Raft\obj\Debug\Raft.csproj.CoreCompileInputs.cache
+C:\Users\Phantom\Desktop\C#\EXAM\Raft\Raft\obj\Debug\Raft.exe
+C:\Users\Phantom\Desktop\C#\EXAM\Raft\Raft\obj\Debug\Raft.pdb
