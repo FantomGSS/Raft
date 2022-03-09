@@ -48,7 +48,7 @@ namespace Raft
             int raftCapacity = weightsOfGoats.Max();
             int completedCourses = 0;
             int occupiedCapacity = 0;
-            List<int> weightsOfGoatsCopy = weightsOfGoats;
+            List<int> weightsOfGoatsCopy = new List<int>(weightsOfGoats);
 
             while (true)
             {
@@ -64,6 +64,7 @@ namespace Raft
                             if (occupiedCapacity + weightsOfGoatsCopy[i] <= raftCapacity)
                             {
                                 occupiedCapacity += weightsOfGoatsCopy[i];
+                                weightsOfGoatsCopy.RemoveAt(i);
                                 i--;
                             }
                         }
@@ -80,7 +81,7 @@ namespace Raft
                     }
 
                     completedCourses = 0;
-                    weightsOfGoatsCopy = weightsOfGoats;
+                    weightsOfGoatsCopy = new List<int>(weightsOfGoats);
                     raftCapacity++;
                 }
 
